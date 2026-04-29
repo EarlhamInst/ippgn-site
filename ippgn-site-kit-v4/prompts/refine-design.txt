@@ -1,0 +1,5 @@
+Refine this static site to look exceptionally clean, crisp, and professional.
+Take inspiration from the restrained simplicity of Chandar Lab and the modern academic feel of UK-MAC.
+Keep generous whitespace, sharp typography, subtle borders, and a calm palette.
+Do not add flashy gradients, illustrations, marketing sections, counters, testimonials, or startup-style design tropes.
+Preserve the existing information architecture and keep the site easy to deploy on GitHub Pages.
