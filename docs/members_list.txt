@@ -1,0 +1,19 @@
+Dr Jon Wright	Earlham Institute	https://jonwright99.github.io/
+Dr Rachel Rusholme	Earlham Institute	https://www.linkedin.com/in/rachel-rusholme-pilcher/
+Prof Anthony Hall	Earlham Institute	https://www.linkedin.com/in/anthony-hall-41144533/
+Dr Miriam Schreiber	James Hutton Institute	https://www.hutton.ac.uk/people/miriam-schreiber/
+Dr Abdul-Kader Alabdullah	John Innes Centre	https://orcid.org/0000-0003-0342-6085
+Prof Nadia Kamal	Technical University of Munich	https://www.mls.ls.tum.de/en/cpb/home/
+Dr Manuel Spannagl	Helmholtz Munich	https://www.linkedin.com/in/manuel-spannagl-6148441b/
+Venkataramana Kopalli	Justus Liebig University Giessen	www.linkedin.com/in/venkataramana-kopalli-b6a74a201
+Dr Sebastian Beier	Forschungszentrum Jülich GmbH	https://www.linkedin.com/in/beiersebastian/
+Dr Avril Harder	HudsonAlpha Institute for Biotechnology	https://scholar.google.com/citations?hl=en&user=uyxk3voAAAAJ&view_op=list_works&authuser=1&sortby=pubdate
+Dr Micha Bayer	James Hutton Institute	http://www.hutton.ac.uk/staff/micha-bayer
+Asst Prof Benjamin Linard	INRAE (French National Research Institute for Agronomy, Alimentation & Environment)	https://www.linkedin.com/in/benjamin-linard-68a3bb65
+Dr Laura Gardiner	IBM Research Europe	https://www.linkedin.com/in/laura-gardiner-181bba83/
+Dr Pauline Lasserre-Zuber	INRAE (French National Research Institute for Agronomy, Alimentation & Environment)	www.linkedin.com/in/pauline-lasserre-zuber-56247048
+Dr Matthias Zytnicki	INRAE (French National Research Institute for Agronomy, Alimentation & Environment)	https://miat.inrae.fr/member/zytnickimatthias/
+Dr Mark Davey	BASF	https://orcid.org/0000-0002-4633-0991
+Prof Dave Edwards	University of Western Australia	https://edwards.appliedbioinformatics.com.au/
+Dr Cassandra Wattenberger	Bayer	www.linkedin.com/in/cassandra-wattenburger-144a7a66
+Simon Griffiths	John Innes Centre	https://www.jic.ac.uk/people/simon-griffiths/

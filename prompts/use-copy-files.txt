@@ -1,0 +1,6 @@
+Use the markdown drafts in `docs/copy/` as the source text for the site.
+Preserve the meaning and tone unless explicitly asked to rewrite.
+Keep the public-facing name as "International Plant Pangenome Network".
+Do not make "IPPN" the dominant brand.
+Maintain visible space for a future network logo and an Earlham Institute logo.
+Preserve a clean contact form on the Contact page and do not force a public email address into the design.
