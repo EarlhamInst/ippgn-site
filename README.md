@@ -1,4 +1,4 @@
-# International Plant Pangenome Network site kit
+# International Plant Pangenome Network
 
 ## Files
 Before handing the repository to Codex, these files were edited for content.
