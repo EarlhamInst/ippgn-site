@@ -1,6 +1,6 @@
 # International Plant Pangenome Network site kit
 
-## Built with Codex
+## Files
 Before handing the repository to Codex, these files were edited for content.
 - `docs/copy/home.md`
 - `docs/copy/how-we-work.md`
