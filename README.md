@@ -1,5 +1,12 @@
 # International Plant Pangenome Network
 
+## Repository moved
+This repository is no longer the canonical home of the project.
+
+The project has moved to:
+- Repository: `https://github.com/EarlhamInst/ippgn-site`
+- Live site: `https://earlhaminst.github.io/ippgn-site/`
+
 ## Files
 Before handing the repository to Codex, these files were edited for content.
 - `docs/copy/home.md`
