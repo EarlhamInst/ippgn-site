@@ -4,6 +4,7 @@
 Before handing the repository to Codex, these files were edited for content.
 - `docs/copy/home.md`
 - `docs/copy/how-we-work.md`
+- `docs/copy/news.md`
 - `docs/copy/people.md`
 - `docs/copy/contact.md`
 
@@ -14,9 +15,9 @@ The actual site lives in `site/`.
 A future network logo can be added later.
 The Earlham Institute logo is already included in the footer.
 
-## Contact form
-The contact page uses a static HTML form suitable for GitHub Pages and is wired to Formspree.
-If change form providers, update the form `action` in `site/contact.html`.
+## Contact page
+The contact page currently directs enquiries to `ippgn@earlham.ac.uk`.
+It also links to the privacy notice PDF published in `site/assets/docs/privacy-notice.pdf`.
 
 ## GitHub Pages
 To setup, publish the contents of `site/` using GitHub Pages.

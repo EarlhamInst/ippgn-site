@@ -1,7 +1,7 @@
 # Contact us
 
-We welcome enquiries from researchers, collaborators, tool developers, and others interested in the network.
+We welcome enquiries from pangenome researchers, collaborators, tool developers, and others interested in the network. Please email us at ippgn@earlham.ac.uk to get in touch.
 
-Please use the contact form below to get in touch. We welcome questions about participation, meetings, and future activities.
+Your privacy matters to us. Please read our terms and privacy policy to understand how we collect, use, and store your information.
 
 Hosted by the Earlham Institute.

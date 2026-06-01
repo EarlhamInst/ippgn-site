@@ -12,8 +12,9 @@ Dr Micha Bayer	James Hutton Institute	http://www.hutton.ac.uk/staff/micha-bayer
 Asst Prof Benjamin Linard	INRAE (French National Research Institute for Agronomy, Alimentation & Environment)	https://www.linkedin.com/in/benjamin-linard-68a3bb65
 Dr Laura Gardiner	IBM Research Europe	https://www.linkedin.com/in/laura-gardiner-181bba83/
 Dr Pauline Lasserre-Zuber	INRAE (French National Research Institute for Agronomy, Alimentation & Environment)	www.linkedin.com/in/pauline-lasserre-zuber-56247048
+Dr Vanda Marosi	Technical University of Munich
 Dr Matthias Zytnicki	INRAE (French National Research Institute for Agronomy, Alimentation & Environment)	https://miat.inrae.fr/member/zytnickimatthias/
 Dr Mark Davey	BASF	https://orcid.org/0000-0002-4633-0991
 Prof Dave Edwards	University of Western Australia	https://edwards.appliedbioinformatics.com.au/
 Dr Cassandra Wattenberger	Bayer	www.linkedin.com/in/cassandra-wattenburger-144a7a66
-Simon Griffiths	John Innes Centre	https://www.jic.ac.uk/people/simon-griffiths/
+Dr Simon Griffiths	John Innes Centre	https://www.jic.ac.uk/people/simon-griffiths/

@@ -8,6 +8,7 @@
   --line-strong: #c7cec5;
   --accent: #55675d;
   --accent-strong: #43544a;
+  --brand-red: #8e1f2f;
   --accent-soft: rgba(85, 103, 93, 0.12);
   --radius: 14px;
   --radius-sm: 10px;
@@ -269,6 +270,28 @@ h1 {
   max-width: 68ch;
 }
 
+.inline-link {
+  color: var(--accent-strong);
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+}
+
+.inline-link:hover,
+.inline-link:focus-visible {
+  color: var(--text);
+}
+
+.policy-link {
+  color: var(--brand-red);
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+}
+
+.policy-link:hover,
+.policy-link:focus-visible {
+  color: #741827;
+}
+
 .content-block {
   padding-top: 1.45rem;
   border-top: 1px solid var(--line);
@@ -276,6 +299,10 @@ h1 {
 
 .content-block + .content-block {
   margin-top: 1.7rem;
+}
+
+.policy-block {
+  margin-top: 12rem;
 }
 
 .content-block h2 {
@@ -527,6 +554,19 @@ code {
     width: min(calc(100% - 1.5rem), var(--max));
   }
 
+  .site-nav {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    justify-content: start;
+    gap: 0.65rem 1rem;
+    padding-top: 0.7rem;
+  }
+
+  .site-nav a {
+    padding-bottom: 0.3rem;
+    font-size: 0.92rem;
+  }
+
   .site-banner p {
     padding: 0.92rem 0 0.96rem;
     font-size: 1rem;
@@ -559,6 +599,26 @@ code {
   .members-table th,
   .members-table td {
     padding: 0.68rem 0;
+    overflow-wrap: anywhere;
+  }
+
+  .members-table {
+    table-layout: fixed;
+  }
+
+  .members-table th:first-child,
+  .members-table td:first-child {
+    width: 38%;
+    padding-right: 0.8rem;
+  }
+
+  .members-table th:last-child,
+  .members-table td:last-child {
+    width: 62%;
+  }
+
+  .policy-block {
+    margin-top: 4.75rem;
   }
 
   .footer-logo img {

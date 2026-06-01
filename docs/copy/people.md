@@ -13,5 +13,5 @@ Anthony Hall
 Earlham Institute
 
 ## Network members
-The network currently includes researchers from academia, research institutes, software developers, end-users and industry.
+The network currently includes researchers from academia, research institutes, software developers, end-users and industry. Those listed below represent part of the membership:
 
