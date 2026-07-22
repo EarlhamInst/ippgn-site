@@ -8,6 +8,7 @@
   --line-strong: #c7cec5;
   --accent: #55675d;
   --accent-strong: #43544a;
+  --brand-teal: #1cb3bb;
   --brand-red: #8e1f2f;
   --accent-soft: rgba(85, 103, 93, 0.12);
   --radius: 14px;
@@ -90,24 +91,36 @@ ol {
 }
 
 .site-banner {
-  border-bottom: 1px solid var(--line);
   background: rgba(239, 235, 226, 0.78);
 }
 
-.site-banner p {
-  padding: 1.1rem 0 1.15rem;
-  text-align: center;
-  font-size: 1.18rem;
-  font-weight: 500;
-  letter-spacing: 0.02em;
+.site-banner .site-shell {
+  width: calc(100% - 2.75rem);
+  max-width: none;
 }
 
-.site-header__inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  padding: 0.95rem 0;
+.site-banner__inner {
+  position: relative;
+  min-height: 7rem;
+  padding: 0.72rem 0 0.66rem;
+}
+
+.site-banner__link {
+  display: inline-flex;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.site-banner__logo {
+  width: min(100%, 27rem);
+  height: auto;
+}
+
+.home-page .site-banner__logo {
+  width: min(100%, 28.5rem);
 }
 
 .brand {
@@ -138,10 +151,15 @@ ol {
 }
 
 .site-nav {
+  position: absolute;
+  right: clamp(3.5rem, 8vw, 9rem);
+  top: 50%;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 1.15rem;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  gap: 1.6rem;
+  transform: translateY(-50%);
 }
 
 .site-nav a {
@@ -151,6 +169,7 @@ ol {
   text-decoration: none;
   font-size: 0.95rem;
   letter-spacing: 0.01em;
+  white-space: nowrap;
 }
 
 .site-nav a::after {
@@ -172,7 +191,7 @@ ol {
 .site-nav a:hover::after,
 .site-nav a:focus-visible::after,
 .site-nav a[aria-current="page"]::after {
-  background: var(--accent);
+  background: var(--brand-teal);
 }
 
 .site-main {
@@ -481,20 +500,27 @@ code {
 .site-footer__inner {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   gap: 1.5rem;
   padding: 1.35rem 0 2.1rem;
 }
 
+.site-footer__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
 .site-footer__text {
   display: grid;
-  gap: 0.2rem;
+  gap: 0;
 }
 
 .site-footer__inner p {
   max-width: 34rem;
   color: var(--muted);
   font-size: 0.94rem;
+  line-height: 1.28;
 }
 
 .site-footer__inner p:first-child {
@@ -512,6 +538,18 @@ code {
   border-bottom-color: currentColor;
 }
 
+.footer-mark {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  border-bottom: 0;
+}
+
+.footer-mark img {
+  width: auto;
+  height: 3.6rem;
+}
+
 .footer-logo {
   display: inline-flex;
   align-items: center;
@@ -525,26 +563,36 @@ code {
 }
 
 @media (max-width: 900px) {
-  .site-header__inner,
+  .site-banner__inner,
   .contact-grid,
   .site-footer__inner {
     display: grid;
     grid-template-columns: 1fr;
   }
 
-  .site-header__inner {
-    gap: 1rem;
+  .site-banner__inner {
+    position: static;
+    min-height: 0;
+    gap: 0.55rem;
+    padding: 0.58rem 0 0.52rem;
   }
 
   .site-nav {
+    position: static;
     width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     gap: 0.85rem 1rem;
-    padding-top: 0.8rem;
-    border-top: 1px solid var(--line);
+    padding-top: 0;
+    transform: none;
   }
 
   .leadership-grid {
     grid-template-columns: 1fr;
+  }
+
+  .site-footer__brand {
+    align-items: center;
   }
 }
 
@@ -554,12 +602,16 @@ code {
     width: min(calc(100% - 1.5rem), var(--max));
   }
 
+  .site-banner .site-shell {
+    width: calc(100% - 1.5rem);
+  }
+
   .site-nav {
     display: grid;
     grid-template-columns: repeat(3, max-content);
     justify-content: start;
-    gap: 0.65rem 1rem;
-    padding-top: 0.7rem;
+    gap: 0.55rem 0.95rem;
+    padding-top: 0.5rem;
   }
 
   .site-nav a {
@@ -567,9 +619,14 @@ code {
     font-size: 0.92rem;
   }
 
-  .site-banner p {
-    padding: 0.92rem 0 0.96rem;
-    font-size: 1rem;
+  .site-banner__link {
+    position: static;
+    padding: 0;
+    transform: none;
+  }
+
+  .site-banner__logo {
+    width: min(100%, 15rem);
   }
 
   .home-hero {
@@ -623,5 +680,9 @@ code {
 
   .footer-logo img {
     width: 124px;
+  }
+
+  .footer-mark img {
+    height: 3rem;
   }
 }
