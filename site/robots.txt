@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://earlhaminst.github.io/ippgn-site/sitemap.xml
